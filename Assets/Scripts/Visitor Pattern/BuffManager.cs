@@ -12,9 +12,9 @@ public class BuffManager : MonoBehaviour
     // 버프 적용
     public void ApplyBuffs()
     {
-        attackBuff.Visit(warrior);
-        attackBuff.Visit(wizard);
-        defenseBuff.Visit(warrior);
-        defenseBuff.Visit(wizard);
+        warrior.Accept(attackBuff);
+        warrior.Accept(defenseBuff);
+        wizard.Accept(attackBuff);
+        wizard.Accept(defenseBuff);
     }
 }
