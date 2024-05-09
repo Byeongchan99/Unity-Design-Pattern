@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AudioManager : IAudioService
 {
+    /*
     private Dictionary<string, AudioClip> audioClips = new Dictionary<string, AudioClip>();
 
     // 사운드 클립을 등록하는 메소드
@@ -18,6 +19,7 @@ public class AudioManager : IAudioService
             Debug.LogWarning("Clip already registered: " + clipName);
         }
     }
+    */
 
     // 소리 재생 및 정지를 로그로 기록
     // 사운드 클립을 재생하는 메소드
